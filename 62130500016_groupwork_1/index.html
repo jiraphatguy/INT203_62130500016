@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic Vue Js - HelloWorld App</title>
+
+  <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+  <!-- Using via Google Web Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-- https://tailwindcss.com/docs/installation -->
+  <!-- Using Tailwind via CDN -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
+  <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
+  <!-- Vue CDN -->
+  <script src="https://unpkg.com/vue@next"></script>
+
+</head>
+
+<body>
+
+  <div class="h-11 w-auto bg-black bg-opacity-80 sticky top-0 z-10">
+    <nav class="">
+      <p class=" text-gray-300 justify-center font-sans pt-2.5 text-center flex space-x-20 text-sm">
+        <a href="">
+        <img class="h-5 w-5 "
+          src="https://www.flaticon.com/svg/vstatic/svg/179/179309.svg?token=exp=1612003585~hmac=63d3c702fecaea7d3a5531ef250cace6">
+        </a>
+        <a href="" class="hover:text-white ">Mac</a>
+        <a href="" class="hover:text-white ">iPad</a>
+        <a href="" class="hover:text-white ">iPhone</a>
+        <a href="" class="hover:text-white ">Watch</a>
+        <a href="" class="hover:text-white ">TV</a>
+        <a href="" class="hover:text-white ">Music</a>
+        <a href="" class="hover:text-white ">Support</a>
+        <a href=""><img class="h-4 w-4 mt-1" src="images/search.png"></a>
+        <a href=""><img class="h-4 w-4 mt-1" src="images/bag.png"></a>
+      </p>
+    </nav>
+  </div>
+
+  <div id="alert" class="text-center text-sm  h-11 bg-blue-500 text-blue-50 mx-auto flex justify-center ">
+    <a href="" class="pt-2.5 font-sans font-sans inline hover:underline ">
+        Evaluate COVID‑19 symptoms and understand next steps</a>
+    <span class="material-icons text-sm mt-3">navigate_next</span>
+  </div>
+
+  <div id="alert" class="h-15 bg-white mx-auto">
+    <p class="p-3 text-center font-sans text-sm"><a href="" class="text-blue-500 hover:underline">Shop online</a>
+      and get Specialist help, free no‑contact delivery, and more.<br>
+      Some of our retail stores are temporarily closed or offering limited services. Before you visit, <a href=""
+        class="text-blue-500 hover:underline">check your store’s status</a>.</p>
+  </div>
+
+  <div class="relative w-auto">
+    <img class="" src="images/bgg.png">
+    <div class="absolute top-11 flex justify-center w-screen">
+      <div class="flex flex-col">
+        <p class="text-center text-6xl font-semibold">iPhone 12</p>
+        <p class="text-center text-3xl mt-1"> Blast past fast.</p>
+        <p class="text-center text-lg text-gray-400 mt-3"> From $29.12/mo. or $699 before trade-in.</p>
+        <p class="text-center text-lg text-gray-400"> Buy directly from Apple with special carrier offers.</p>
+        <div class="space-x-10 flex justify-center text-center text-lg text-blue-600 text-xl mt-2">
+          <div>
+            <a href="" class="hover:underline">Learn more</a>
+            <span class="material-icons text-lg align-middle">navigate_next</span>
+          </div>
+          <div>
+            <a href="" class="hover:underline">Buy</a>
+            <span class="material-icons text-lg align-middle">navigate_next</span>
+          </div>
+        </div>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="relative w-auto mt-3">
+    <img class="" src="images/iphone12pro.png">
+    <div class="absolute top-11 flex justify-center w-screen">
+      <div class="flex flex-col">
+        <p class="text-center text-6xl font-semibold text-white">iPhone 12 Pro</p>
+        <p class="text-center text-3xl  text-white mt-1"> It's leap year.</p>
+        <p class="text-center text-lg text-gray-500 mt-3"> From $41.62/mo. or $999 before trade-in.</p>
+        <p class="text-center text-lg text-gray-500"> Buy directly from Apple with special carrier offers.</p>
+        <div class="space-x-10 flex justify-center text-center text-lg text-blue-500 text-xl mt-2">
+          <div>
+            <a href="" class="hover:underline">Learn more</a>
+            <span class="material-icons text-lg align-middle">navigate_next</span>
+          </div>
+          <div>
+            <a href="" class="hover:underline">Buy</a>
+            <span class="material-icons text-lg align-middle">navigate_next</span>
+          </div>
+        </div>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- my main.js -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
